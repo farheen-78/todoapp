@@ -1,0 +1,78 @@
+body{
+
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/13/16/40/background-3017167__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    font-size: 55px;
+    font-weight: bold;
+    color:rgb(0, 0, 255);
+    text-shadow:2px 5px 5px  rgb(194, 23, 60);
+}
+.input{
+   width: 300px;
+   height: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-radius: 35px;
+   font-size: 25px;
+   color:blue;
+   padding-left:10px;
+   align-items: center;
+    margin-top: 5px;   
+   
+}
+
+ #list{
+    margin: 0 auto; 
+    width:500px;
+} 
+
+
+
+li{
+    margin-right: 50px; 
+    color:rgb(191,0,96);
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    list-style: none;
+   
+} 
+ .btn{ 
+    margin-left: 10px;
+    background-color:rgb(255, 0, 0)    ;
+    font-size: 20px;
+    color:white;
+    border-radius: 10px;
+    
+}
+ .btn1{
+    float: right;
+    margin-left:5px;
+    background-color:rgb(0,0,255)    ;
+    font-size: 25px;
+    color:white;
+    border-radius: 10px; 
+    
+}   
+.btn2{
+    float: right;
+    background-color:rgb(255,127,39)    ;
+    font-size: 25px;
+    color:white;
+    border-radius: 10px; 
+    
+}   
+  @media only screen and (max-width:600px){ 
+      body{
+          width:100%;
+      }
+    #list{
+      width:360px ;
+    }
+}  
